@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB065867279110EF005F1284 /* LargeInputLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB065866279110EF005F1284 /* LargeInputLetter.swift */; };
+		AB06586927911F01005F1284 /* LargeInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06586827911F01005F1284 /* LargeInputRow.swift */; };
+		AB06586B2791CD07005F1284 /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06586A2791CD07005F1284 /* UserMessage.swift */; };
+		AB1ADD8E278D1996004FDAC6 /* AnimatedLetterFlipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1ADD8D278D1995004FDAC6 /* AnimatedLetterFlipper.swift */; };
+		AB1ADD90278D1AA3004FDAC6 /* MovingCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1ADD8F278D1AA3004FDAC6 /* MovingCounter.swift */; };
+		AB47E50A27909E97000D58A4 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB47E50827909E97000D58A4 /* words.txt */; };
+		AB47E50B27909E97000D58A4 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = AB47E50927909E97000D58A4 /* dictionary.txt */; };
+		AB5B3DC72789393A009CBAFE /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5B3DC62789393A009CBAFE /* Shake.swift */; };
+		AB6D86F02784EA9F00FCE3F9 /* WordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D86EF2784EA9E00FCE3F9 /* WordRow.swift */; };
+		AB6D86F22784F15600FCE3F9 /* WordTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D86F12784F15600FCE3F9 /* WordTable.swift */; };
+		AB6F5C652784DE00005F6436 /* Five Letter Words WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB6F5C642784DE00005F6436 /* Five Letter Words WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB6F5C6A2784DE04005F6436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6F5C692784DE04005F6436 /* Assets.xcassets */; };
+		AB6F5C702784DE04005F6436 /* Five Letter Words WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB6F5C6F2784DE04005F6436 /* Five Letter Words WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB6F5C752784DE04005F6436 /* wrdleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F5C742784DE04005F6436 /* wrdleApp.swift */; };
+		AB6F5C772784DE04005F6436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F5C762784DE04005F6436 /* ContentView.swift */; };
+		AB6F5C792784DE04005F6436 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F5C782784DE04005F6436 /* NotificationController.swift */; };
+		AB6F5C7B2784DE04005F6436 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F5C7A2784DE04005F6436 /* NotificationView.swift */; };
+		AB6F5C7D2784DE04005F6436 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F5C7C2784DE04005F6436 /* ComplicationController.swift */; };
+		AB6F5C7F2784DE05005F6436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6F5C7E2784DE05005F6436 /* Assets.xcassets */; };
+		AB6F5C822784DE05005F6436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6F5C812784DE05005F6436 /* Preview Assets.xcassets */; };
+		AB71756A278F4BCA00F9B255 /* SquareLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB717569278F4BCA00F9B255 /* SquareLetter.swift */; };
+		AB7E3521278528A100B34A5F /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E3520278528A100B34A5F /* WordModel.swift */; };
+		ABC3A8242797766B00B5C571 /* Fireworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC3A8232797766B00B5C571 /* Fireworks.swift */; };
+		ABEA1C7F2787391300B389CF /* SpinnerInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA1C7E2787391200B389CF /* SpinnerInputRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6F5C662784DE00005F6436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6F5C5A2784DE00005F6436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6F5C632784DE00005F6436;
+			remoteInfo = "wrdle WatchKit App";
+		};
+		AB6F5C712784DE04005F6436 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6F5C5A2784DE00005F6436 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6F5C6E2784DE04005F6436;
+			remoteInfo = "wrdle WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB6F5C8A2784DE05005F6436 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB6F5C702784DE04005F6436 /* Five Letter Words WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F5C8E2784DE05005F6436 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB6F5C652784DE00005F6436 /* Five Letter Words WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB065866279110EF005F1284 /* LargeInputLetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeInputLetter.swift; sourceTree = "<group>"; };
+		AB06586827911F01005F1284 /* LargeInputRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeInputRow.swift; sourceTree = "<group>"; };
+		AB06586A2791CD07005F1284 /* UserMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMessage.swift; sourceTree = "<group>"; };
+		AB1ADD8D278D1995004FDAC6 /* AnimatedLetterFlipper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedLetterFlipper.swift; sourceTree = "<group>"; };
+		AB1ADD8F278D1AA3004FDAC6 /* MovingCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingCounter.swift; sourceTree = "<group>"; };
+		AB47E50827909E97000D58A4 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		AB47E50927909E97000D58A4 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		AB5B3DC62789393A009CBAFE /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		AB6D86EF2784EA9E00FCE3F9 /* WordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRow.swift; sourceTree = "<group>"; };
+		AB6D86F12784F15600FCE3F9 /* WordTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTable.swift; sourceTree = "<group>"; };
+		AB6F5C602784DE00005F6436 /* Five Letter Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five Letter Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F5C642784DE00005F6436 /* Five Letter Words WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five Letter Words WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F5C692784DE04005F6436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6F5C6F2784DE04005F6436 /* Five Letter Words WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Five Letter Words WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F5C742784DE04005F6436 /* wrdleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrdleApp.swift; sourceTree = "<group>"; };
+		AB6F5C762784DE04005F6436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB6F5C782784DE04005F6436 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AB6F5C7A2784DE04005F6436 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		AB6F5C7C2784DE04005F6436 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AB6F5C7E2784DE05005F6436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6F5C812784DE05005F6436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB6F5C832784DE05005F6436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6F5C842784DE05005F6436 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB717569278F4BCA00F9B255 /* SquareLetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareLetter.swift; path = "wrdle WatchKit Extension/SquareLetter.swift"; sourceTree = SOURCE_ROOT; };
+		AB7E3520278528A100B34A5F /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		ABC3A8232797766B00B5C571 /* Fireworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireworks.swift; sourceTree = "<group>"; };
+		ABEA1C7E2787391200B389CF /* SpinnerInputRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerInputRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6F5C6C2784DE04005F6436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB47E50C2790BD3B000D58A4 /* words */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E50927909E97000D58A4 /* dictionary.txt */,
+				AB47E50827909E97000D58A4 /* words.txt */,
+			);
+			path = words;
+			sourceTree = "<group>";
+		};
+		AB5B3DC827893A64009CBAFE /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				AB717569278F4BCA00F9B255 /* SquareLetter.swift */,
+				AB1ADD8F278D1AA3004FDAC6 /* MovingCounter.swift */,
+				AB1ADD8D278D1995004FDAC6 /* AnimatedLetterFlipper.swift */,
+				ABEA1C7E2787391200B389CF /* SpinnerInputRow.swift */,
+				AB5B3DC62789393A009CBAFE /* Shake.swift */,
+				AB06586827911F01005F1284 /* LargeInputRow.swift */,
+				AB065866279110EF005F1284 /* LargeInputLetter.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		AB6F5C592784DE00005F6436 = {
+			isa = PBXGroup;
+			children = (
+				AB6F5C682784DE00005F6436 /* wrdle WatchKit App */,
+				AB6F5C732784DE04005F6436 /* wrdle WatchKit Extension */,
+				AB6F5C612784DE00005F6436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6F5C612784DE00005F6436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F5C602784DE00005F6436 /* Five Letter Words.app */,
+				AB6F5C642784DE00005F6436 /* Five Letter Words WatchKit App.app */,
+				AB6F5C6F2784DE04005F6436 /* Five Letter Words WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6F5C682784DE00005F6436 /* wrdle WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F5C692784DE04005F6436 /* Assets.xcassets */,
+			);
+			path = "wrdle WatchKit App";
+			sourceTree = "<group>";
+		};
+		AB6F5C732784DE04005F6436 /* wrdle WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB47E50C2790BD3B000D58A4 /* words */,
+				AB5B3DC827893A64009CBAFE /* Input */,
+				AB6F5C742784DE04005F6436 /* wrdleApp.swift */,
+				AB6F5C762784DE04005F6436 /* ContentView.swift */,
+				AB6F5C782784DE04005F6436 /* NotificationController.swift */,
+				AB6F5C7A2784DE04005F6436 /* NotificationView.swift */,
+				AB6F5C7C2784DE04005F6436 /* ComplicationController.swift */,
+				AB6F5C7E2784DE05005F6436 /* Assets.xcassets */,
+				AB6F5C832784DE05005F6436 /* Info.plist */,
+				AB6F5C842784DE05005F6436 /* PushNotificationPayload.apns */,
+				AB6F5C802784DE05005F6436 /* Preview Content */,
+				AB6D86EF2784EA9E00FCE3F9 /* WordRow.swift */,
+				AB6D86F12784F15600FCE3F9 /* WordTable.swift */,
+				AB7E3520278528A100B34A5F /* WordModel.swift */,
+				AB06586A2791CD07005F1284 /* UserMessage.swift */,
+				ABC3A8232797766B00B5C571 /* Fireworks.swift */,
+			);
+			path = "wrdle WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AB6F5C802784DE05005F6436 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F5C812784DE05005F6436 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6F5C5F2784DE00005F6436 /* Five Letter Words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F5C8F2784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words" */;
+			buildPhases = (
+				AB6F5C5E2784DE00005F6436 /* Resources */,
+				AB6F5C8E2784DE05005F6436 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6F5C672784DE00005F6436 /* PBXTargetDependency */,
+			);
+			name = "Five Letter Words";
+			productName = wrdle;
+			productReference = AB6F5C602784DE00005F6436 /* Five Letter Words.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AB6F5C632784DE00005F6436 /* Five Letter Words WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F5C8B2784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words WatchKit App" */;
+			buildPhases = (
+				AB6F5C622784DE00005F6436 /* Resources */,
+				AB6F5C8A2784DE05005F6436 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6F5C722784DE04005F6436 /* PBXTargetDependency */,
+			);
+			name = "Five Letter Words WatchKit App";
+			productName = "wrdle WatchKit App";
+			productReference = AB6F5C642784DE00005F6436 /* Five Letter Words WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AB6F5C6E2784DE04005F6436 /* Five Letter Words WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F5C872784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words WatchKit Extension" */;
+			buildPhases = (
+				AB6F5C6B2784DE04005F6436 /* Sources */,
+				AB6F5C6C2784DE04005F6436 /* Frameworks */,
+				AB6F5C6D2784DE04005F6436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Five Letter Words WatchKit Extension";
+			productName = "wrdle WatchKit Extension";
+			productReference = AB6F5C6F2784DE04005F6436 /* Five Letter Words WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6F5C5A2784DE00005F6436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AB6F5C5F2784DE00005F6436 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AB6F5C632784DE00005F6436 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AB6F5C6E2784DE04005F6436 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AB6F5C5D2784DE00005F6436 /* Build configuration list for PBXProject "Five Letter Words" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6F5C592784DE00005F6436;
+			productRefGroup = AB6F5C612784DE00005F6436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6F5C5F2784DE00005F6436 /* Five Letter Words */,
+				AB6F5C632784DE00005F6436 /* Five Letter Words WatchKit App */,
+				AB6F5C6E2784DE04005F6436 /* Five Letter Words WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6F5C5E2784DE00005F6436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F5C622784DE00005F6436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F5C6A2784DE04005F6436 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F5C6D2784DE04005F6436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F5C822784DE05005F6436 /* Preview Assets.xcassets in Resources */,
+				AB47E50A27909E97000D58A4 /* words.txt in Resources */,
+				AB47E50B27909E97000D58A4 /* dictionary.txt in Resources */,
+				AB6F5C7F2784DE05005F6436 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6F5C6B2784DE04005F6436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F5C792784DE04005F6436 /* NotificationController.swift in Sources */,
+				AB7E3521278528A100B34A5F /* WordModel.swift in Sources */,
+				AB1ADD8E278D1996004FDAC6 /* AnimatedLetterFlipper.swift in Sources */,
+				AB5B3DC72789393A009CBAFE /* Shake.swift in Sources */,
+				AB6F5C772784DE04005F6436 /* ContentView.swift in Sources */,
+				AB6F5C7D2784DE04005F6436 /* ComplicationController.swift in Sources */,
+				AB6D86F02784EA9F00FCE3F9 /* WordRow.swift in Sources */,
+				AB6F5C752784DE04005F6436 /* wrdleApp.swift in Sources */,
+				ABEA1C7F2787391300B389CF /* SpinnerInputRow.swift in Sources */,
+				AB1ADD90278D1AA3004FDAC6 /* MovingCounter.swift in Sources */,
+				AB6D86F22784F15600FCE3F9 /* WordTable.swift in Sources */,
+				AB71756A278F4BCA00F9B255 /* SquareLetter.swift in Sources */,
+				AB06586927911F01005F1284 /* LargeInputRow.swift in Sources */,
+				AB065867279110EF005F1284 /* LargeInputLetter.swift in Sources */,
+				AB06586B2791CD07005F1284 /* UserMessage.swift in Sources */,
+				AB6F5C7B2784DE04005F6436 /* NotificationView.swift in Sources */,
+				ABC3A8242797766B00B5C571 /* Fireworks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6F5C672784DE00005F6436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6F5C632784DE00005F6436 /* Five Letter Words WatchKit App */;
+			targetProxy = AB6F5C662784DE00005F6436 /* PBXContainerItemProxy */;
+		};
+		AB6F5C722784DE04005F6436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6F5C6E2784DE04005F6436 /* Five Letter Words WatchKit Extension */;
+			targetProxy = AB6F5C712784DE04005F6436 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB6F5C852784DE05005F6436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB6F5C862784DE05005F6436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6F5C882784DE05005F6436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"wrdle WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wrdle WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "wrdle WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = wrdle_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AB6F5C892784DE05005F6436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"wrdle WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wrdle WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "wrdle WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = wrdle_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AB6F5C8C2784DE05005F6436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = wrdle_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "wrdle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		AB6F5C8D2784DE05005F6436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = wrdle_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "wrdle WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		AB6F5C902784DE05005F6436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle;
+				PRODUCT_NAME = "Five Letter Words";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB6F5C912784DE05005F6436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.wrdle;
+				PRODUCT_NAME = "Five Letter Words";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6F5C5D2784DE00005F6436 /* Build configuration list for PBXProject "Five Letter Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F5C852784DE05005F6436 /* Debug */,
+				AB6F5C862784DE05005F6436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F5C872784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F5C882784DE05005F6436 /* Debug */,
+				AB6F5C892784DE05005F6436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F5C8B2784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F5C8C2784DE05005F6436 /* Debug */,
+				AB6F5C8D2784DE05005F6436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F5C8F2784DE05005F6436 /* Build configuration list for PBXNativeTarget "Five Letter Words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F5C902784DE05005F6436 /* Debug */,
+				AB6F5C912784DE05005F6436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6F5C5A2784DE00005F6436 /* Project object */;
+}
